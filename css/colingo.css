@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.100 {
+	height:100%;
+}
+
+#home {
+	background:#5DC9E6 url(../img/blue.png) no-repeat center top fixed;
+	background-size: cover;
+}
+#nav {
+	background:#004563;	
+	color: #FFFFFF;
+	font-family:'Open Sans Condensed','Helvetica CY', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:1em;
+	padding: 2em 0;
+	position:fixed;
+	bottom:0px;
+	z-index:1000;
+	width:100%;
+}
+
+.menu_current {
+	color:#5DC9E6;
+}
+.menu_item {
+	margin: 0 0 0 1em;
+	vertical-align:bottom;
+}
+.menu_img {
+	margin: -.3em 0 0 0;
+	height:20px;
+}
+.btn_social {
+	width:40px;
+}
+#logo {
+	text-align:center;
+}
+#tagline{
+	text-align:center;
+	font-family:'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#ffffff;
+	font-size:24px;
+	margin:2rem 0;
+	line-height:1.5;
+}
+#cta {
+	/*text-align:right;*/
+	text-align:left;
+	font-family:'Open Sans Condensed', 'Helvetica CY', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#FFFFFF;
+	font-size:1em;
+	margin: 0rem 0 1rem;
+}
+#social_buttons {
+	text-align: right;	
+}
+#social_buttons img{
+	margin:-1em 0 -1em .4em;
+}
+input {
+	border-radius:3px;
+	padding: 8px;
+}
+/*Mailchimp form text */
+#mc_embed_signup {
+	max-width: 400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*end mailchimp text*/
+.lightblue {
+	background: #5DA4C1;
+	color:#FFFFFF;
+	padding-bottom:2rem;
+}
+.medblue {
+	background: #005B7F;
+	height:100%;
+	color:#ffffff;
+}
+h1.h1serif {
+	font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#ffffff;
+}
+.section {
+	color: #ffffff;
+	text-align:center;
+	background:#004563;
+	max-width:310px;
+	padding: 1rem;
+	margin-right: auto;
+	margin-left:auto;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	margin-bottom:3rem;
+	font-family:'Open Sans Condensed', 'Helvetica CY', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:1.5rem;
+}
+.tagline {
+	text-align:center;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#ffffff;
+	font-size:24px;
+	line-height:1.5;
+	margin-bottom:3rem;
+}
+img.aboutimages {
+	width:140px;
+	margin-bottom:1.2rem;
+}
+.h3about{
+	font-family:'Open Sans Condensed', 'Helvetica CY', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#5DC9E6;
+	font-size: 1.2rem;
+	margin-bottom: 3rem;
+}
+/*Team Page*/
+.medblue1 {
+	background: #005B7F;
+	color:#ffffff;
+}
+.portrait {
+	margin-bottom:2rem;
+}
+.name {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#ffffff;
+	font-size:24px;
+	line-height:1.5;
+	margin-bottom:.5rem;
+}
+.jobtitle {
+	font-family:'Open Sans Condensed', 'Helvetica CY', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#5DC9E6;
+	font-size: 1rem;
+	margin-bottom: .5rem;
+}
+.jobtitle a {
+	color:#ffffff;
+}
+.end {
+	padding-bottom:3rem;
+}
+
+/*Vertically align*/
+.vertical {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/*End Team Page*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (max-width : 640px) {
+/* Styles */
+#cta {
+	margin-bottom:15px;
+}
+#signup {
+	margin-bottom:4px;
+}
+#btn_signup {
+	margin-bottom:100px;
+}
+#logo {
+	text-align:center;
+	margin:3em 0 1em;
+}
+#tagline{
+	margin: 1em 0;
+	font-size: 16px;
+}
+.portrait {
+	margin-top:-1.25rem;
+	margin-bottom: 1rem;
+}
+.vertical {
+	position: static;
+	-webkit-transform: none;
+	-ms-transform:none;
+	transform:none;
+}
+#mc_embed_signup {
+	padding-bottom: 100px;
+}
+.medblue {
+	height:auto;
+	padding-bottom:100px;
+}
+.portrait {
+	padding-top:50px;
+}
+}
